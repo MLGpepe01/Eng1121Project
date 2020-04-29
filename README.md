@@ -27,4 +27,7 @@ ABC suspends journalist over personal beliefs:
 
 ABC quashes Epstein story:
 https://nypost.com/2019/11/05/abc-news-amy-robach-claims-network-quashed-jeffrey-epstein-coverage-on-hot-mic/ 
-FOX was founded by a political operative:
+Tucker Carlson Elitist:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“I’m an out-of-the-closet elitist,” Tucker Carlson said in 2008. “I don’t run around pretending to be a man of the people; I’m absolutely not a man of the people.”<br><br>The remarks are starkly different from his recent attempts to brand himself as anti-elite. <a href="https://t.co/NCLrKIqlTK">https://t.co/NCLrKIqlTK</a> <a href="https://t.co/ulTOYDBXYG">pic.twitter.com/ulTOYDBXYG</a></p>&mdash; The Intercept (@theintercept) <a href="https://twitter.com/theintercept/status/1105596836134469632?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Sean Hannity campaigns for Trump:
+https://apnews.com/20f240baf06742c79de711d7e8580eb9
