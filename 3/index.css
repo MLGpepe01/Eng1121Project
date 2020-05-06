@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(250, 207, 236);
     border-radius:50%;
     margin:0;
 }
@@ -75,11 +75,11 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:#fff;
+    color:rgb(188, 255, 246);
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(197, 255, 195);
     font-size:70px;
     text-decoration:underline;
 }
@@ -137,15 +137,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(255, 236, 128, 0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(151, 255, 174, 0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(255, 182, 236, 0.9);
     cursor:pointer;
 }
 #middle table {
