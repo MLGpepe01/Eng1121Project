@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(238, 255, 145);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(227, 165, 243);
     margin-left:-5px;
 }
 #menu {
@@ -75,11 +75,11 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:rgb(188, 255, 246);
+    color:rgb(224, 255, 188);
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(197, 255, 195);
+    color:rgb(255, 229, 195);
     font-size:70px;
     text-decoration:underline;
 }
@@ -137,11 +137,11 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255, 236, 128, 0.9);
+    background:rgba(122, 150, 119, 0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(151, 255, 174, 0.9);
+    background:rgba(113, 139, 173, 0.9);
     cursor:pointer;
 }
 #contact:hover {
