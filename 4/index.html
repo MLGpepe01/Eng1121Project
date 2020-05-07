@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cable News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">NBC/MSNBC</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">CNN</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">FOX/Local News</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Online and Print Media</h1>
+        <h2>Who owns that newspaper you like?</h2>
+        <div id="menu">
+            <a onclick="showabout()">NBC/MSNBC</a>
+            <a onclick="showwork()">CNN</a>
+            <a onclick="showcontact()">FOX/Local News</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>CNN</h1>
+        <section>
+            <h2>Chris Cuomo</h2>
+            <p>
+                Chris Cuomo is often painful to watch, one of the dumbest voices on Cable News, his commentary is often lacking. 
+                He is also known for his angry outbursts. One time he yelled at someone who implied that he was a failson with a clever godfather reference.
+                The fact that he has a cable show might seem like a miracle to those who are unfamiliar with his last name. 
+                You see, Chris Cuomo belongs to one of the most influential political families in the state of New York, which includes
+                both governor Andrew Cuomo, as well as governor Mario Cuomo. These familial connections helped him land a job at CNN, 
+                where he earns $6 million anually. He also has a net worth of over $12 million.
+            </p>
+            <h2>Don Lemon</h2>
+            <p> Don Lemon, though less bad then Cuomo, is still one of the worse cable hosts out there. Despite his mediocrity, 
+            Lemon is worth over $10 million, and has an annual salary of $4million.
+            </p>
+            <h2>Fereed Zakaria</h2>
+            <p> One of the more sane voices in establishment media, Zakaria's reporting on international issues is usually good (except when it comes to Russia and Venesuela), but
+            some of his segments on domestic issues can be a bit one sided.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_one">button 1</button>
+            <a><button class="btn_two">button 2</button></a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>NBC</h1>
+            <section>
+                <h2>Lester Holt</h2>
+                <p>
+                Lester Holt, host of NBC nightly news is known for being uncontroversial, not stirring the pot too much. 
+                Despite being so boring, he has a net worth of over $25 million, and a salary of $4 million a year.
+                </p>
+            <h1>MSNBC</h1>
+               <h2>Chris Matthews</h2>
+                <p>
+                   Chris Matthews is most known for being hyperbolic in comparing Sanders (a Social Democrat) to socialist dictators. 
+                   He claimed that Sanders was going to "kill [rich] people in Central Park".
+                   Of course it seems rediculous to most people, but Chris Matthews is rich himself.
+                </p>
+               <h2>Rachel Maddow</h2>
+                <p>
+                   Maddow is known for being an MSNBC host that always kept talking about Russian Agents and the US election.
+                   She is often criticised for being conspiratorial. She is worth more than $20 million, and has an annual 
+                   salary of $7 million
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>FOX</h1>
+            <section>
+            <h2>Tucker Carlson</h2>
+            <p> Tucker Carlson is arguably one of the most influential Cable News presenters. 
+            Though Carlson likes to portray himself as a man of the people, he is in fact, an elitist.
+            His stepmother was a wealthy heiress to the Swanson frozen food empire.
+            He is currently worth over $20 million, and has a salary of $6 million a year.
+            </p>
+            <h2> Laura Inghram</h2>
+            <p> Laura Inghram is the host of the Inghram Angle, a popular news show on FOX. She is currently worth over $70 million
+            with an annual salary of $15 million.
+            </p>
+            <h2>Judge Jeanine</h2>
+            <p>Jeanine Pirro, host of FOX's Justice with Judge Jeanine. She is worth over $12million and has an annual salary of $3million.
+            </p>
+            <h2>The Five</h2>
+            <p>
+                The Five is a show on FOX news that comprises of Greg Guttfeld (worth over $5 million), Dana Perino (worth over $6 million), Jesse Watters (worth over $5million), and Juan Williams (worth over $2 million)
+                These people have some of the dumbest takes on the planet, yet they are worth millions.
+                
+            </p>
+            <h1>Local News</h1>
+            <p>Though many of the talking heads on local news don't get paid as much as those in the national media, 
+            they are often forced to stick to a script due to the fact that they're owned by one company in most cases.</p>
+            <h2>Sinclair Broadcast Groupp</h2> 
+            <p> is the corporation that currently owns the majority of local news stations</p>
+            </div>
+            
+        </section>
+        
+        </div>
+        <div id="footer">
+            <a href='../1/index.html'><button class="btn_two" >Back</button></a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
